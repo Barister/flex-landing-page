@@ -95,6 +95,7 @@ body {
 .cards__container {
     margin: 0 300px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     padding-bottom: 100px;
@@ -102,7 +103,7 @@ body {
 
 .cards__card {
   
-
+    flex: 1 1 22%;
     display: flex;
     flex-direction: column;
 }
